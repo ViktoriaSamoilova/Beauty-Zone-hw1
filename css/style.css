@@ -1,0 +1,143 @@
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/play-v19-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/play-v19-latin-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v30-latin-700.woff2") format("woff2");
+}
+
+/* Colors */
+:root {
+  --color-brand-light: #2b7fff;
+  --color-brand-dark: #011c44;
+  --color-brand-white: #fff;
+  --color-primary-dark: #4a4a4a;
+  --color-primary-light: #747272;
+  --color-primary-blue: #011f4a;
+  --color-primary-yellow: #ffd02b;
+}
+
+/* Base */
+body {
+  color: var(--color-brand-dark);
+  font-family: "Robot", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+address {
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.link {
+  color: var(--color-brand-dark);
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: var(--color-brand-light);
+  font-weight: 700;
+}
+
+h1 {
+  color: var(--color-brand-light);
+  text-transform: uppercase;
+}
+
+.button {
+  color: var(--color-brand-white);
+  background-color: var(--color-brand-light);
+  font-weight: 600;
+  border-radius: 32px;
+  border: 2px solid var(--color-brand-light);
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--color-brand-dark);
+  background-color: transparent;
+}
+
+.hero-text {
+  font-size: 12px;
+}
+
+.accent {
+  color: var(--color-brand-light);
+  text-transform: capitalize;
+}
+
+.introduction-text {
+  font-size: 64px;
+  font-weight: 700;
+  font-family: "Play", sans-serif;
+}
+
+.introduction-item {
+  font-size: 22px;
+}
+
+.introduction-part {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/* Advantages section */
+.advantages-title {
+  text-align: center;
+  font-family: "Play", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.advantages-item {
+  color: var(--color-brand-light);
+}
+
+/* Procedures section */
+/* How to find section */
+/* Footer */
+
+.address-link {
+  font-size: 16px;
+  text-decoration: none;
+  color: var(--color-brand-dark);
+}
+
+.address-link:hover {
+  color: var(--color-brand-light);
+}
+
+.address-copyright {
+  font-size: 14px;
+  color: var(--color-primary-light);
+}
