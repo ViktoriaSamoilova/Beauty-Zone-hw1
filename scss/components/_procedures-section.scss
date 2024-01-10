@@ -1,0 +1,34 @@
+.procedures-list {
+  display: flex;
+  gap: 16px;
+  /* flex-wrap: wrap; */
+}
+
+.procedures-card {
+  width: 344px;
+  height: 456px;
+  padding: 32px;
+  border: 1px solid lightgray;
+  border-radius: 120px 4px;
+  background: linear-gradient(
+    180deg,
+    rgba(1, 28, 68, 0) 48.53%,
+    rgba(1, 28, 68, 0.73) 84.61%,
+    #011c44 101.39%
+  );
+  transition: transform 0.3s;
+}
+
+.procedures-card:hover {
+  transform: scale(1.05);
+}
+
+.procedures-item {
+  flex-basis: calc((100% - 32px) / 3);
+}
+
+.procedures-container {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}

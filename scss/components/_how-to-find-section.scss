@@ -1,0 +1,74 @@
+.location-section {
+  padding-bottom: 94px;
+}
+
+.location-container {
+  display: flex;
+  gap: 32px;
+}
+
+.contact-map {
+  flex-shrink: 0;
+  border: none;
+  border-radius: 32px;
+}
+
+.location-text {
+  color: var(--color-brand-white);
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  padding: 48px 56px 32px 56px;
+  margin-bottom: 0;
+}
+
+.location-paragraph {
+  color: var(--color-brand-white);
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.location-copyright {
+  margin: 8px auto;
+  max-width: 212px;
+  color: var(--color-primary-light);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.location-copyright-link {
+  color: var(--color-primary-light);
+  text-underline-offset: 2px;
+}
+
+.aplication-container {
+  background-color: var(--color-brand-dark);
+  background-image: url(../images/modal-background.png);
+  border-radius: 32px;
+  width: 100%;
+  /* height: 100%; */
+  max-width: 422px;
+  max-height: 481px;
+  text-align: center;
+}
+
+.aplication {
+  max-width: 310px;
+  max-height: 52px;
+  margin: 0 auto;
+}
+
+.footer-button {
+  margin: 0 auto;
+  display: block;
+}
+
+.footer-button:hover {
+  color: var(--color-brand-dark);
+  background-color: var(--color-brand-white);
+}

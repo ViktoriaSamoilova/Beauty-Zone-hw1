@@ -1,0 +1,44 @@
+@import "./utils/fonts.scss";
+
+@import "./utils/variables";
+
+@import "./base";
+
+@import "./utils/utils.scss";
+
+@import "./components/buttons";
+
+@import "./components/links";
+
+.section {
+  padding: 40px 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1264px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+@import "./components/header";
+
+@import "./components/hero-section";
+
+@import "./components/introduction-section";
+
+@import "./components/advantages-section";
+
+@import "./components/procedures-section";
+
+@import "./components/carousel";
+
+@import "./components/how-to-find-section";
+
+@import "./components/footer";
+
+@import "./components/modal";
+
+@import "./components/form";
+
+/*# sourceMappingURL=main.css.map */

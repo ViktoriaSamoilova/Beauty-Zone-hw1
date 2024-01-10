@@ -1,0 +1,59 @@
+.introduction-container {
+  max-width: 1240px;
+  max-height: 695px;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 28px;
+}
+
+.introduction-content {
+  max-width: 710px;
+}
+
+.introduction-title {
+  margin-bottom: 40px;
+  font-size: 64px;
+  font-weight: 700;
+  font-family: "Play", sans-serif;
+}
+
+.introduction-item {
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+
+.text {
+  margin-bottom: 0;
+}
+
+.introduction-part {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.introduction-img {
+  display: flex;
+  width: 327px;
+  height: 327px;
+  flex-shrink: 0;
+  border-radius: 327px;
+  flex-direction: column;
+}
+
+.introduction-img2 {
+  display: flex;
+  width: 327px;
+  height: 327px;
+  flex-shrink: 0;
+  border-radius: 327px;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-left: 176px;
+}
+
+.introduction-img::after {
+  /* display: block;
+  position: absolute; */
+  background-image: url("../images/Star 1.jpg");
+  content: "";
+}
